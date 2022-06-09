@@ -19,6 +19,7 @@
     margin-top: 13.5vh;
     transition: background 1s;
     /* margin-left: 50vw; */
+    /* box-shadow: 0px 0px 100px 100px blueviolet; */
 
 
 }
@@ -162,6 +163,7 @@ li {
     border-radius: 0.5vw;
     margin-left: 7vw;
     margin-top: -1vh;
+        box-shadow: 0px 0px 2px 2px blueviolet;
 
 }
 .imgbox

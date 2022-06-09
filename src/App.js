@@ -7,6 +7,11 @@ import Fetch from './fect_with_axious';
 import React from 'react';
 import Testreducer from './reducer';
 import Todo from './assignment02/todobody';
+import Parenttochild from './week2day1/parenttochile';
+import Childtoparent from './week2day1/parenttochile';
+import Slibling from './week2day1/sibling';
+import AuthLogin from './authentic_Login/AuthLogin';
+import Grocery from './assignment03/grocery';
 export const Usecontex = React.createContext()
 function App() {
 
@@ -18,10 +23,14 @@ function App() {
       {/* <Todolist /> */}
       {/* <Usecontex.Provider value={'Fatch'}>
         <Fetch/>
-      </Usecontex.Provider> */}
-      {/* <Testreducer></Testreducer> */}
-      <Todo></Todo>
-      
+      </Usecontex.Provider>  */}
+      {/* <Testreducer></Testreducer>
+      {/* <Todo></Todo> */}
+      {/* <Parenttochild></Parenttochild> */}
+      {/* <Childtoparent></Childtoparent> */}
+      {/* <Slibling></Slibling> */}
+      {/* <AuthLogin></AuthLogin> */}
+      <Grocery></Grocery>
     </>
   );
 }
