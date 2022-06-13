@@ -31,8 +31,8 @@ function App() {
       {/* <Childtoparent></Childtoparent> */}
       {/* <Slibling></Slibling> */}
       {/* <AuthLogin></AuthLogin> */}
-      <Grocery></Grocery>
-      {/* <Form></Form> */}
+      {/* <Grocery></Grocery> */}
+      <Form></Form>
     </>
   );
 }
