@@ -1,8 +1,25 @@
 import "./grocery.css"
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from "axios";
 
 const GroceryTodolist = (props) => {
+    const [ids,setid] = useState()
 
+    //De
+       useEffect(() => {
+          
+             
+               axios.delete(`http://localhost:3000/array/${ids}`)
+                   .then(res => {
+                       console.log(res.data)
+                     
+                   }).catch(err => {
+                       console.log(err)
+                   })
+          
+           
+             },[ids])
+   
     return (<>
         {
             (props.itemdetails.length > 0)?  <div className="header2">
@@ -23,6 +40,7 @@ const GroceryTodolist = (props) => {
                                     return ele.id != eles.id
                               })
                                 props.changedetails(a)
+                                setid(ele.id)
             }}>Delete</p>
         </div>
                         </>
