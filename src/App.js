@@ -26,13 +26,13 @@ function App() {
         <Fetch/>
       </Usecontex.Provider>  */}
       {/* <Testreducer></Testreducer>
-      {/* <Todo></Todo> */}
+     <Todo></Todo> 
       {/* <Parenttochild></Parenttochild> */}
       {/* <Childtoparent></Childtoparent> */}
       {/* <Slibling></Slibling> */}
       {/* <AuthLogin></AuthLogin> */}
       {/* <Grocery></Grocery> */}
-      <Form></Form>
+     
     </>
   );
 }
